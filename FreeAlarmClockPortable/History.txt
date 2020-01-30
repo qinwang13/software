@@ -1,0 +1,91 @@
+Version 4.0.1 (January 19, 2016)
+-------------------------------
+* Improved some translations of the user interface.
+* Fixed: Issue with turning on volume after wakeup in Windows 10.
+* Fixed: Issue with 12-hour time format when period shows one letter (a/p).
+
+Version 4.0 (December 14, 2015)
+-------------------------------
+* Free Alarm Clock now has full Unicode support.
+* New "Skip next alarm" option has been added to alarm clocks.
+* New command line parameter /ADDALARM has been added. This parameter opens the new alarm window.
+* New: 6 alarm sounds have been added.
+* New: Translations of the UI into Greek and Indonesian languages.
+* Improved Windows 10 Compatibility.
+* Improved: The reminder window shows the snooze time on the snooze button.
+* Improved: Now Free Alarm Clock has a modern date picker.
+* Improved: The caption of the alarm window shows the alarm time.
+* Fixed: Sometimes the alarm event did not bring the reminder window to the foreground in Windows 8 and above.
+* Fixed: Now you can't close the floating clock using the Alt+F4 hotkey.
+* Fixed: If you used the ampersand character (&) in the label for an alarm event, "_" was displayed instead of "&" when the reminder window popped up for that event.
+* Some other fixes and improvements.
+
+Version 3.1 (February 20, 2014)
+-------------------------------
+* Improved DPI Scaling support.
+* Improved volume control behavior.
+* Fixed issue with failure message "Floating point division by zero".
+
+Version 3.0 (October 21, 2013)
+-------------------------------
+* New: The "Stay on Top" option has been added for the main window.
+* New: "Cancel Snooze" command.
+* New: "Play Sound Duration" option. You can define for how long to play the sound.
+* New: Support for the flac audio files has been added. Support for the wav files has been improved.
+* Fixed: Sometimes alarms not fires when the computer wakes up from a sleep mode.
+* Fixed: Issue with sorting of alarms.
+* Fixed: When an event occurs, the floating window starts flashing. It can't stop flashing when you set the "(None)" sound.
+* Fixed: Alarm kept going off even when you hit Snooze and deleted the alarm.
+* Some other bug fixes and improvements.
+
+Version 2.7 (April 25, 2012)
+-------------------------------
+* New: Translations of the UI into Bulgarian, Serbian and Japanese languages.
+* New: View mode "Single Line".
+* New: Shortcuts for lists: Ctrl+N, Ctrl+Enter, Ctrl+Del, Ctrl+E.
+* New: Ability to stop snooze.
+* Improved: In order to open main window from tray you need to click on icon. The second click on the tray icon hides the main window.
+* Fixed: Issue with waking up PC from a sleep mode when the first alarm doesn't have WakeUp option.
+* Fixed: Issue with daylight saving adjustment.
+* Fixed: Issue with playing sound when output device changes.
+* Fixed: Alarm balloon is visible while playing sound.
+* Fixed: Issue with storing setting.
+* Some other bug fixes and improvements.
+
+Version 2.5 (November 22, 2011)
+-------------------------------
+* New: Ability to play a random song from a directory.
+* New: Ability to execute a command or open URL instead of playing a song.
+* New: Ability to play WAV and WMA files.
+* New: A tooltip on the taskbar as an alarm notification.
+* New: Added translations of the UI into Simplified Chinese, Romanian, Czech and Arabic languages.
+* Improved: Whenever the system time changes, the program refreshes all alarms.
+* Fixed: Sometimes the floating clock window does not re-open after restart.  
+* Fixed: Issue with playing sound.
+* Fixed: Issue with daylight saving time.
+
+Version 2.3 (May 17, 2011)
+-------------------------------
+* Added new interface languages: Swedish, Slovenian, Korean, Finnish, Hungarian, Chinese Traditional.
+* Volume control behavior has been improved for systems with several sound cards (playback devices).
+* Sound volume goes back to the default state after alarm activation.
+* Snooze alarm with a single spacebar press.
+* A new setting "Show clock in floating window" has been added.
+
+Version 2.2 (February 17, 2011)
+-------------------------------
+* "Label" field has been enlarged. When the alarm rings all the text in the "Label" field is shown (if necessary the font size is decreased).
+* "Show message" option has been added. If this checkbox is unchecked, then the signal can be stopped by clicking the icon in the system tray.
+* In the alarm settings window a button has been added for stopping the sound.
+* In the alarm settings window it is possible to change the sound level using the slider.
+* The ability to set the amount of time before the alarm rings again (snooze) has been added.
+* Interface language selection has been added.
+* The ability to backup the alarm list to file and to restore from file has been added.
+* New alarm sounds have been added.
+* Added new interface languages: Polish, Catalan, Turkish.
+* Fixed a bug with rendering of the main window when a large font size is used in the system. 
+* Some other enhancements.
+
+Version 2.1 (December 8, 2010)
+-------------------------------
+* Fixed a bug: A problem getting multiple alarms to work. The first alarm works but the 2nd 3rd, etc do don't work.
